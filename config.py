@@ -32,7 +32,7 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1003946714192")
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://pubzelo:pubzelo@cluster0.jvawywm.mongodb.net") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_NAME = os.environ.get("DB_NAME", "pubzelo")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
